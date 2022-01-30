@@ -1,0 +1,311 @@
+@font-face {
+    font-family: 'Work Sans';
+    src: url(../font/WorkSans-Regular.ttf);
+}
+/* #########GLOBEL######### */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    /* color: rgb(234, 204, 194);
+    color: rgb(115, 115, 115); */
+body{
+    background-color: #2e2e2e;
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+header nav ul li a{
+    color: rgb(234, 204, 194);
+    transition: 1s linear;
+    opacity: .5;
+}
+h1{
+    font-size: 2.2rem;
+    font-weight: 100;
+    color: rgb(234, 204, 194);
+}
+h2{
+    color: rgb(234, 204, 194);
+}
+h3{
+    color: rgb(234, 204, 194);
+    font-size: 1rem;
+    font-weight: 100;
+}
+p{
+    color: #867772;
+    line-height: 170%;
+}
+img{
+    width: 100%;
+}
+/*######### Header######### */
+/* ##########NAV########## */
+/* TOP */
+header{
+    position: fixed;
+    right: 0%;
+    width: 45%;
+    margin-top: 2%;
+    font-size: .8rem;
+}
+header nav ul li{
+    list-style: none;
+    margin-right: 5%;
+}
+header nav ul li:nth-of-type(1) a img{
+    width: 100%;
+    margin: 2% 5% 10% 15%;
+}
+/* HOVER */
+header nav  ul li a:hover{
+    text-decoration: underline;
+    color: white;
+    transition: 1s linear;
+    opacity: 1;
+}
+.first{
+    margin: 0% 11% 0 0;
+}
+.conect{
+    margin:0% 1%;
+}
+.last{
+    margin: 0% 11% 0 11%;
+}
+.link ul{
+    display: flex;
+    justify-content: end;
+}
+.logo{
+    width: 5%;
+}
+/* ##########NAV left########### */
+.fix{
+    position: fixed;
+    top: 200px;
+}
+.fix ul li a{
+line-height: 700%;
+margin-left: 85%;
+font-size: .8rem;
+opacity: .5;
+}
+.fix ul li a:hover{
+    color: white;
+    transition: 1s linear;
+    opacity: 1;
+}
+/* ########section2############# */
+/* img hüpf */
+.hüpf h1{
+    padding: 15% 40% 13% 30%;
+}
+.hüpf{
+margin:0 5% 9% 5%;
+}
+/* ##########section3 .Kanne ######*/
+.kanne{
+    width: 35%;
+    margin-left: 15%;
+    margin-bottom: 7%;
+}
+.flex{
+    display: flex;
+
+}
+.flexText{
+    width: 40%;
+    padding: 5%;
+}
+.flexText h1{
+    margin: 6% 0;
+}
+.flexText p{
+    line-height: 170%;
+    padding-right: 6%;
+}
+/*######### LOUNGER ############*/
+.flexLo{
+    display: flex;
+    height: 100vh;
+}
+.seat{
+    width: 58%;
+    background-image: url(../img/section-voyager.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.flexTextLo{
+    width: 42%;
+    padding: 5%;
+}
+.flexTextLo h1{
+    padding: 22% 0%
+}
+.flexTextLo p{
+    padding: 0 12.1% 0 0%;
+}
+/* ##############EXPERIENCE########### */
+.flexEx{
+    display: flex;
+    height: 100vh;
+}
+.box{
+    background-image: url(../img/section-experience-1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 54%;
+}
+.flexTextSo{
+    width: 46%;
+    padding: 5%;
+}
+.flexTextSo h1{
+    padding: 12% 0 22% 0;
+}
+.flexTextSo p{
+    padding-right: 21%;
+}
+/*################ Shop ############*/
+.flexSh{
+    display: flex;
+    height: 100vh;
+}
+.wellen{
+    background-image: url(../img/section-composition4.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 60%;
+}
+.flexTextSh{
+    width: 40%;
+    text-align: center;
+    background-image: url(../img/h9-argilla-bright-hero-1000x1000.webp);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    margin-top: 7%;
+}
+.flexTextSh h2{
+    padding-top: 85%;
+}
+.flexTextSh p:nth-of-type(1){
+    padding: 2% 0 3% 0;
+}
+.flexTextSh p:nth-of-type(2){
+    padding-bottom: 3% ;
+}
+.buy{
+    border: 1px solid #ebccc2;
+    padding: 1% 3%;
+    background-color: #ebccc2;
+    color: black;
+    border-radius: 3px;
+}
+/* ###########inspiration########### */
+/* ++++++++++++VIDEO+++++++++++++ */
+.video{
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    padding: 10% 0 3% 0;
+}
+.an{
+    padding: 10% 0 10% 20%;
+}
+.an h3{
+    padding-bottom: 1%;
+}
+.an h1{
+    padding-bottom: 3%;
+}
+.flexP{
+    display: flex;
+    gap: 0.5rem;
+}
+.bor{
+    border: 1px solid white;
+    padding: 3px 7px;
+    margin-bottom: 1%;
+}
+/*############# Bild 1 ############*/
+.flexWat{
+    display: flex;
+    margin-left: 20%;
+}
+.flexWat h3{
+    padding:10% 0 2% 2%;
+}
+.flexWat h1{
+    padding:0 0 2% 2%;
+}
+.flexWat p{
+    padding: 0 53% 0 2%;
+}
+/* #########Bild 2############# */
+.flexRun{
+    display: flex;
+    margin: 0 21% 5% 0%;
+}
+.flexRun h3{
+    padding:10% 0 2% 43%;
+}
+.flexRun h1{
+    padding:0 15% 3% 43%;
+}
+.flexRun p{
+    padding:0 8% 3% 43%;
+}
+.current.currentpage{
+    opacity: 1;
+}
+/* formular */
+.flexFo{
+    display: flex;
+}
+.kopf{
+    width: 100%;
+    padding-left: 10%;
+}
+.breit{
+    width: 60%;
+    background-color: #ebccc2;
+}
+.flexCon{
+    width: 40%;
+    flex-direction: column;
+    padding: 10% 0 0 5%;
+}
+.flexCon h1{
+    padding-bottom: 10%;
+}
+button{
+    border-radius: 5px;
+    margin-bottom: 5%;
+    font-size: 1rem;
+}
+form input{
+    display: block;
+    margin-bottom: 5%;
+    width: 50%;
+}
+.send{
+    width: 20%;
+}
+#your{
+    height: 15vh;
+}
+#send{
+    width: 15%;
+}
+#ne, #sub{
+display: inline;
+width: 5%;
+}
